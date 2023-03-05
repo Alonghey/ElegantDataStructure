@@ -25,7 +25,7 @@ public:
 			T = NULL;
 		else
 		{
-			cout << "����һ���ڵ�!" << endl;
+			cout << "成功创建树!" << endl;
 			T = new BiTreeNode;
 			T->data = c;
 			createBiTree(T->lchild);

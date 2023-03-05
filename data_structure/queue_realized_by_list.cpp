@@ -20,7 +20,7 @@ public:
 		head->next = nullptr;
 		tail = head;
 	}
-	// β�巨
+	//入队
 	void push(Node<T>* n) {
 		tail->next = n;
 		tail = n;
@@ -36,7 +36,7 @@ public:
 
 	// ����ʵ�ֶ�����
 	void pop() {
-		if (!head->next) return;
+		if (!head->next) return;//为空则退出
 		Node<T>* tmp = head;
 		head = head->next;
 		delete tmp;

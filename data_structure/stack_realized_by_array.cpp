@@ -2,6 +2,8 @@
 #include <string>
 #include <exception>
 
+
+//顺序存储堆栈
 class stack{
 public:
     #define SIZE 6

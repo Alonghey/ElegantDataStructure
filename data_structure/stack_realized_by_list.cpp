@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// ջ��ʽ�洢
+// 链式存储堆栈
 
 template<class T>
 class Node {
